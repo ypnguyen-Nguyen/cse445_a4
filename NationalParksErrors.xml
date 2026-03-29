@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <NationalPark>								// root element should be NationalParks
 	<NationalPark Rating="4.9">
 		<Name>Grand Canyon</Name>
@@ -46,6 +46,91 @@
 			<City>Homestead</City>
 			<State>FL</State>
 			<Zip>33034</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark Rating="4.4">
+		<Name>Gateway Arch</Name>
+		<Phone>314-655-1600</Phone>
+		<Address NearestAirport="St. Louis Lambert">
+			<Number>11</Number>
+			<Street>N 4th Street</Street>
+			<City>St. Louis</City>
+			<State>MO</State>
+			<Zip>63102</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark Rating="4.7">
+		<Name>Great Sand Dunes</Name>
+		<Phone>719-378-6395</Phone>
+		<Phone>719-589-5807</Phone>
+		<Address NearestAirport="San Luis Valley">
+			<Number>11999</Number>
+			<Street>State Highway 150</Street>
+			<City>Mosca</City>
+			<State>CO</State>
+			<Zip>81146</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark Rating="4.8">
+		<Name>Joshua Tree</Name>
+		<Phone>760-367-5500</Phone>
+		<Address NearestAirport="Palm Springs">
+			<Number>74485</Number>
+			<Street>National Park Drive</Street>
+			<City>Twentynine Palms</City>
+			<State>CA</State>
+			<Zip>92277-3597</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark Rating="4.7">
+		<Name>Mesa Verde</Name>
+		<Phone>970-529-4465</Phone>
+		<Address NearestAirport="Cortez">
+			<Number>34840</Number>
+			<Street>Hwy 160</Street>
+			<City>Mancos</City>
+			<State>CO</State>
+			<Zip>81328</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark>
+		<Name>Petrified Forest</Name>
+		<Phone>928-524-6822</Phone>
+		<Address NearestAirport="FlagStaff">
+			<Number>Exit 311</Number>
+			<Street>Interstate 40</Street>
+			<City>Petrified Forest</City>
+			<State>AZ</State>
+			<Zip>86028</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark>
+		<Name>Redwood</Name>
+		<Phone>707-464-6101</Phone>
+		<Address NearestAirport="Del Norte County">
+			<Number>1111</Number>
+			<Street>Second Street</Street>
+			<City>Crescent City</City>
+			<State>CA</State>
+			<Zip>95531</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark>
+		<Name>White Sands</Name>
+		<Phone>575-479-6124</Phone>
+		<Address NearestAirport="Alamogordo-White Sands">
+			<Number>19955</Number>
+			<Street>Highway 70 West</Street>
+			<City>Alamogordo</City>
+			<State>NM</State>
+			<Zip>88310</Zip>
 		</Address>
 	</NationalPark>
 
