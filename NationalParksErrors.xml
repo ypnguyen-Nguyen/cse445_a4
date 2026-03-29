@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NationalPark>								// root element should be NationalParks
+	<NationalPark Rating="4.9">
+		<Name>Grand Canyon</Name>
+		<Phone>928-638-7496</Phone>
+		<Phone>888-499-2757</Phone>
+		<Phone>866-499-2574</Phone>
+		<Address>									// no required attribute NearestAirport
+			<Number>8</Number>
+			<Street>S Entrance Road</Street>
+			<City>Grand Canyon</City>
+			<State>AZ</State>
+			<Zip>86023</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark>
+		<Name>Death Valley</Name>						// no Phone element
+		<Address NearestAirport="Furnace Creek">
+			<Number>CA-190</Number>
+			<Street>Airport Road</Street>
+			<City>Death Valley</City>
+			<State>CA</State>
+			<Zip>92328</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark Rating="4.6">
+		<Name>Denali</Name>
+		<Phone>907-683-9532</Phone>
+		<Address NearestAirport="Denali National Park">
+			<Number>Mile 237</Number>
+			<Street>Highway 3</Street>
+			<City>Denali Park</City>
+			<State>AK</State>
+			<Zip>99755</Zip>					// no closing tag for Address element
+		</NationalPark>
+
+	<NationalPark Rating="4.5">
+		<Name>Everglades</Name>
+		<Name>The Everglades</Name>				// two Name elements
+		<Phone>305-242-7700</Phone>
+		<Address NearestAirport="Miami">
+			<Number>40001</Number>
+			<Street>State Road 9336</Street>
+			<City>Homestead</City>
+			<State>FL</State>
+			<Zip>33034</Zip>
+		</Address>
+	</NationalPark>
+
+</NationalPark>
